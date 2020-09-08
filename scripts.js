@@ -2,6 +2,11 @@ let btn = document.querySelector('.button');
 btn.addEventListener("click", changeColor);
 let bcg = document.querySelector('body');
 let output = document.querySelector('.color_text');
+let space = document.addEventListener("keypress", (e) => {
+    if (e.keyCode === 32) {
+        changeColor();
+    }
+});
 
 function changeColor() {
     let colorek = colorDraw();

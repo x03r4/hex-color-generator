@@ -35,6 +35,12 @@ button {
   font-weight: 300;
   border-radius: 5px;
 }
+button:hover {
+  font-size: 1.41em;
+}
+button:active {
+  font-size: 1.39em;
+}
 .color {
   display: flex;
   justify-content: center;
